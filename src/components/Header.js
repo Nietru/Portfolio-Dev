@@ -24,10 +24,11 @@ function Header() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <header className="App-header">
+      <h2 className="Header-title">Tifannie G Truman</h2>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
-    </div>
+    </header>
   );
 }
 

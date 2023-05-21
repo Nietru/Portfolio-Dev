@@ -32,6 +32,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
+      {/* need to make the resume a downloadable file: */}
       <li className="nav-item">
         <a
           href="#resume"

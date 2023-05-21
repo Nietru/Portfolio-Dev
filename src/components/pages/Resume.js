@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Resume() {
   return (
-    <div>
-      <h1>Resume Page</h1>
-      <p>
+    <div className="container">
+      <h1 className="row page-title">Resume Page</h1>
+      <p className="row page-body">
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
         mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non

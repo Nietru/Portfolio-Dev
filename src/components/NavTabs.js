@@ -2,7 +2,7 @@ import React from "react";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="col-9 nav nav-tabs">
       <li className="nav-item">
         <a
           href="#about"

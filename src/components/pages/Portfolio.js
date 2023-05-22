@@ -4,14 +4,27 @@ export default function Portfolio() {
   return (
     <div className="container">
       <h1 className="row page-title">Portfolio</h1>
-      <p className="row page-body">
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+      <div className="row project-container">
+        {/* TODO: image links to projects */}
+        {/* <a className="col-4 mt-3">
+          <>1</>
+        </a>
+        <a className="col-4 mt-3">
+          <>2</>
+        </a>
+        <a className="col-4 mt-3">
+          <>3</>
+        </a>
+        <a className="col-4 mt-3">
+          <>4</>
+        </a>
+        <a className="col-4 mt-3">
+          <>5</>
+        </a>
+        <a className="col-4 mt-3">
+          <>6</>
+        </a> */}
+      </div>
     </div>
   );
 }

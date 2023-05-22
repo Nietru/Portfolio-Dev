@@ -1,5 +1,6 @@
 import React from "react";
 
+// TODO: DOWNLOADABLE LINK AT THE TOP
 export default function Resume() {
   return (
     <div className="container">

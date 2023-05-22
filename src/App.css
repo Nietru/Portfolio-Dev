@@ -11,3 +11,14 @@
   color: #fff !important;
   background: black !important;
 }
+
+.form {
+  margin: 20px;
+}
+
+.form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}

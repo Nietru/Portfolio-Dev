@@ -1,15 +1,16 @@
 import React from "react";
+import { NavLink } from "react-bootstrap";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="col-9 nav nav-tabs">
+    <ul className="col-8 nav nav-tabs">
       <li className="nav-item">
         <a
           href="#about"
           onClick={() => handlePageChange("About")}
           className={currentPage === "About" ? "nav-link active" : "nav-link"}
         >
-          About
+          <NavLink activeClassName="active-link">About</NavLink>
         </a>
       </li>
       <li className="nav-item">
@@ -18,7 +19,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange("Contact")}
           className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
         >
-          Contact
+          <NavLink activeClassName="active-link">Contact</NavLink>
         </a>
       </li>
       <li className="nav-item">
@@ -29,17 +30,17 @@ function NavTabs({ currentPage, handlePageChange }) {
             currentPage === "Portfolio" ? "nav-link active" : "nav-link"
           }
         >
-          Portfolio
+          <NavLink activeClassName="active-link">Portfolio</NavLink>
         </a>
       </li>
-      {/* need to make the resume a downloadable file: */}
+      {/* TODO: need to make the resume a downloadable file: */}
       <li className="nav-item">
         <a
           href="#resume"
           onClick={() => handlePageChange("Resume")}
           className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
         >
-          Resume
+          <NavLink activeClassName="active-link">Resume'</NavLink>
         </a>
       </li>
     </ul>

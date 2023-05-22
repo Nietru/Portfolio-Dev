@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
@@ -9,7 +10,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange("About")}
           className={currentPage === "About" ? "nav-link active" : "nav-link"}
         >
-          About
+          <NavLink activeClassName="active-link">About</NavLink>
         </a>
       </li>
       <li className="nav-item">
@@ -18,7 +19,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange("Contact")}
           className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
         >
-          Contact
+          <NavLink activeClassName="active-link">Contact</NavLink>
         </a>
       </li>
       <li className="nav-item">
@@ -29,7 +30,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             currentPage === "Portfolio" ? "nav-link active" : "nav-link"
           }
         >
-          Portfolio
+          <NavLink activeClassName="active-link">Portfolio</NavLink>
         </a>
       </li>
       {/* need to make the resume a downloadable file: */}
@@ -39,7 +40,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange("Resume")}
           className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
         >
-          Resume
+          <NavLink activeClassName="active-link">Resume'</NavLink>
         </a>
       </li>
     </ul>

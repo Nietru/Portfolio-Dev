@@ -3,7 +3,7 @@ import { NavLink } from "react-bootstrap";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="col-9 nav nav-tabs">
+    <ul className="col-8 nav nav-tabs">
       <li className="nav-item">
         <a
           href="#about"
@@ -33,7 +33,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           <NavLink activeClassName="active-link">Portfolio</NavLink>
         </a>
       </li>
-      {/* need to make the resume a downloadable file: */}
+      {/* TODO: need to make the resume a downloadable file: */}
       <li className="nav-item">
         <a
           href="#resume"

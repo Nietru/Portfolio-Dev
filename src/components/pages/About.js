@@ -6,7 +6,7 @@ export default function About() {
       <h1 className="row page-title">About Me</h1>
       <div className="row page-body">
         {/* TODO: need to add image here */}
-        <img className="col-4"></img>
+        {/* <img className="col-4"></img> */}
         <p className="col-8">
           The learning journey is an endless beautiful adventure, and I am fully
           committed to the growth mindset. Currently enrolled in the UNH

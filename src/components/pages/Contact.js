@@ -49,7 +49,7 @@ function Contact() {
 
   return (
     <div>
-      <form className="row form" onSubmit={handleFormSubmit}>
+      <form className="row form contact" onSubmit={handleFormSubmit}>
         <div className="row ui-form">
           {/* {errorMessage ? <label>Name cannot be empty!</label> : ""} */}
           <input

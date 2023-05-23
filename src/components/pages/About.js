@@ -10,7 +10,7 @@ export default function About() {
         <div>
           <img src={image} alt="self portrait of the developer" />
         </div>
-        <p className="col-8">
+        <p className="about col-8">
           The learning journey is an endless beautiful adventure, and I am fully
           committed to the growth mindset. Currently enrolled in the UNH
           full-stack Coding Bootcamp, simply put, my current goal is to move

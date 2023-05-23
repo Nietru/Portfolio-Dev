@@ -3,6 +3,7 @@ import "../../App.css";
 
 // Here we import a helper function that will check if the email is valid
 import validateEmail from "react";
+
 // import { Tooltip } from "react-bootstrap";
 
 function Contact() {
@@ -52,7 +53,7 @@ function Contact() {
         <div className="row ui-form">
           {/* {errorMessage ? <label>Name cannot be empty!</label> : ""} */}
           <input
-            className="field col-4 mt-3"
+            className="field col-5 mt-3"
             value={name}
             name="name"
             onChange={handleInputChange}
@@ -60,7 +61,7 @@ function Contact() {
             placeholder="Your name"
           />
           <input
-            className="field col-4 mt-3"
+            className="field col-5 mt-3"
             value={email}
             name="email"
             onChange={handleInputChange}
@@ -68,14 +69,14 @@ function Contact() {
             placeholder="email"
           />
           <input
-            className="field col-10 mt-3"
+            className="field col-11 mt-3"
             value={message}
             name="message"
             onChange={handleInputChange}
             type="text"
             placeholder="Your Message Here!"
           />
-          <button type="submit" className="col-1 mt-3">
+          <button type="submit" className="submit-form col-1 mt-3">
             Submit
           </button>
         </div>

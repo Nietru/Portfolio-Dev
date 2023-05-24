@@ -94,6 +94,15 @@ p {
 
 .resume-page h4 {
   padding: 30px;
+  text-decoration: underline;
+}
+
+.resume-page .skill-list {
+  color: rgb(247, 183, 9);
+}
+
+.resume-page .list-items {
+  font-size: smaller;
 }
 
 .footer {

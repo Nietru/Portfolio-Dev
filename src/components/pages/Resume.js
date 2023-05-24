@@ -4,14 +4,13 @@ import React from "react";
 export default function Resume() {
   return (
     <div className="container">
-      <h1 className="row page-title">Resume'</h1>
+      <h2 className="page-title mt-3">Resume':</h2>
       <p className="row page-body">
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        {/* TODO: downloadable dev resume' */}
+        {/* <a></a> */}
+        {/* TODO: list of skills */}
+        <h4 className="mt-3">Developer Skills:</h4>
+        <ul></ul>
       </p>
     </div>
   );

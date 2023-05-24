@@ -11,10 +11,18 @@
   color: white;
 }
 
+h2 {
+  color: rgb(247, 183, 9);
+}
+
 /* Highlights the active link in the navbar */
 .nav-link.active {
   color: #fff !important;
   background: white !important;
+}
+
+.about {
+  margin-bottom: 50px;
 }
 
 /* Photo styling */
@@ -23,22 +31,36 @@
   width: 250px;
   height: 250px;
   border: 2px solid white;
+  margin-right: 50px;
 }
 
 .project-photo {
-  display: inline-block;
+  display: flex;
   border: 3px solid white;
-  margin: 10px;
-  height: 250px;
-  width: 250px;
-  align-content: space-between;
+  margin: 5px;
+  height: 450px;
+  width: 600px;
 }
 
+.project-container {
+  display: inline-block;
+  margin-bottom: 20px;
+}
 /* Contact form styling */
+.form {
+  margin-top: 50px;
+}
+
 .form .field {
   color: white;
+  display: flex;
+  align-items: center;
   padding: 10px;
   margin: 30px;
+}
+
+.validate-text {
+  color: rgb(247, 183, 9);
 }
 
 .form .submit-form {
@@ -56,4 +78,7 @@ p {
   padding: 10px;
   margin: 10px;
   font-size: 20px;
+}
+
+.footer {
 }

@@ -4,12 +4,12 @@ import React from "react";
 export default function Resume() {
   return (
     <div className="container">
-      <h2 className="row page-title">Resume'</h2>
+      <h2 className="page-title mt-3">Resume':</h2>
       <p className="row page-body">
         {/* TODO: downloadable dev resume' */}
         {/* <a></a> */}
         {/* TODO: list of skills */}
-        <h4>Developer Skills:</h4>
+        <h4 className="mt-3">Developer Skills:</h4>
         <ul></ul>
       </p>
     </div>

@@ -49,6 +49,7 @@ function Contact() {
 
   return (
     <div>
+      <h2>Contact:</h2>
       <form className="row form contact" onSubmit={handleFormSubmit}>
         <div className="row ui-form">
           {/* {errorMessage ? <label>Name cannot be empty!</label> : ""} */}

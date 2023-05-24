@@ -8,29 +8,27 @@ import Image6 from "../../images/project-6.PNG";
 
 export default function Portfolio() {
   return (
-    <div className="container">
-      <h1 className="row page-title">Portfolio</h1>
-      <div className="row portfolio">
-        {/* TODO: image links to projects */}
-        <a href="https://github.com/Nietru">
-          <img src={Image1} alt="self portrait of the developer" />
-        </a>
-        <a href="https://github.com/Nietru">
-          <img src={Image2} alt="self portrait of the developer" />
-        </a>
-        <a href="https://github.com/Nietru">
-          <img src={Image3} alt="self portrait of the developer" />
-        </a>
-        <a href="https://github.com/Nietru">
-          <img src={Image4} alt="self portrait of the developer" />
-        </a>
-        <a href="https://github.com/Nietru">
-          <img src={Image5} alt="self portrait of the developer" />
-        </a>
-        <a href="https://github.com/Nietru">
-          <img src={Image6} alt="self portrait of the developer" />
-        </a>
-      </div>
+    <div className="container mt-3">
+      <h2 className="page-title">Portfolio:</h2>
+      {/* TODO: update hrefs and alt text for images and resize images */}
+      <a href="https://github.com/Nietru">
+        <img className="project-photo col-5 mt-3" src={Image1} alt="project" />
+      </a>
+      <a href="https://github.com/Nietru">
+        <img className="project-photo col-5 mt-3" src={Image2} alt="project" />
+      </a>
+      <a href="https://github.com/Nietru">
+        <img className="project-photo col-5 mt-3" src={Image3} alt="project" />
+      </a>
+      <a href="https://github.com/Nietru">
+        <img className="project-photo col-5 mt-3" src={Image4} alt="project" />
+      </a>
+      <a href="https://github.com/Nietru">
+        <img className="project-photo col-5 mt-3" src={Image5} alt="project" />
+      </a>
+      <a href="https://github.com/Nietru">
+        <img className="project-photo col-5 mt-3" src={Image6} alt="project" />
+      </a>
     </div>
   );
 }

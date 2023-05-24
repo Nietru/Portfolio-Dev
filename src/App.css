@@ -80,5 +80,21 @@ p {
   font-size: 20px;
 }
 
+.resume-file {
+  margin: 5px;
+  padding: 5px;
+  color: teal;
+  font-weight: bold;
+  border: dashed 2px rgb(247, 183, 9);
+}
+
+.resume-page {
+  margin-bottom: 30px;
+}
+
+.resume-page h4 {
+  padding: 30px;
+}
+
 .footer {
 }

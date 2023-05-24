@@ -1,17 +1,20 @@
 import React from "react";
+// import ReactDOM from "react";
+import resume from "./resume.pdf";
 
-// TODO: DOWNLOADABLE LINK AT THE TOP
 export default function Resume() {
   return (
-    <div className="container">
+    <div className="container resume-page">
       <h2 className="page-title mt-3">Resume':</h2>
-      <p className="row page-body">
-        {/* TODO: downloadable dev resume' */}
-        {/* <a></a> */}
-        {/* TODO: list of skills */}
-        <h4 className="mt-3">Developer Skills:</h4>
-        <ul></ul>
-      </p>
+      <a
+        className="resume-file"
+        href={resume}
+        download="Tifannie Truman resume.pdf"
+      >
+        {" "}
+        Download File{""}
+      </a>
+      <h4 className="mt-3">Developer Skills:</h4>
     </div>
   );
 }

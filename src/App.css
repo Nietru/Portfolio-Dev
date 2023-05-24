@@ -4,20 +4,56 @@
   padding: 0;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  background-color: black;
+}
+
+.container {
+  color: white;
 }
 
 /* Highlights the active link in the navbar */
 .nav-link.active {
   color: #fff !important;
-  background: black !important;
+  background: white !important;
 }
 
+/* Photo styling */
+.self-photo {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  border: 2px solid white;
+}
+
+.project-photo {
+  display: inline-block;
+  border: 3px solid white;
+  margin: 10px;
+  height: 250px;
+  width: 250px;
+  align-content: space-between;
+}
+
+/* Contact form styling */
 .form .field {
-  margin: 20px;
+  color: white;
+  padding: 10px;
+  margin: 30px;
 }
 
 .form .submit-form {
   margin: 20px;
-  color: red;
-  background-color: bisque;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+}
+
+/* Other styling */
+p {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
 }

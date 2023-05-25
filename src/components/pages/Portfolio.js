@@ -14,7 +14,12 @@ export default function Portfolio() {
       {/* TODO: update hrefs and alt text for images and resize images */}
       <div className="col-6 project-container">
         <h4 className="project-title col-5">Recipe API Project</h4>
-        <a href="https://github.com/Nietru/Mmm-My-Menu-Memory-App">REPO</a>
+        <a
+          className="repo-link"
+          href="https://github.com/Nietru/Mmm-My-Menu-Memory-App"
+        >
+          REPO
+        </a>
         <a href="https://cryptic-brushlands-31143.herokuapp.com/">
           <img
             className="project-photo mt-3"
@@ -25,7 +30,12 @@ export default function Portfolio() {
       </div>
       <div className="col-6 project-container">
         <h4 className="project-title col-5">Note Taker App</h4>
-        <a href="https://github.com/Nietru/Express-Note-Taker">REPO</a>
+        <a
+          className="repo-link"
+          href="https://github.com/Nietru/Express-Note-Taker"
+        >
+          REPO
+        </a>
         <a href="https://secure-ocean-91993.herokuapp.com/">
           <img
             className="project-photo mt-3"
@@ -36,7 +46,12 @@ export default function Portfolio() {
       </div>
       <div className="col-6 project-container">
         <h4 className="project-title col-5">Workday Planner App</h4>
-        <a href="https://github.com/Nietru/little-workday-planner">REPO</a>
+        <a
+          className="repo-link"
+          href="https://github.com/Nietru/little-workday-planner"
+        >
+          REPO
+        </a>
         <a href="https://nietru.github.io/little-workday-planner/">
           <img
             className="project-photo mt-3"
@@ -47,7 +62,9 @@ export default function Portfolio() {
       </div>
       <div className="col-6 project-container">
         <h4 className="project-title col-5">Music Search API Project</h4>
-        <a href="https://github.com/bcebel/Hot10">REPO</a>
+        <a className="repo-link" href="https://github.com/bcebel/Hot10">
+          REPO
+        </a>
         <a href="https://bcebel.github.io/Hot10/">
           <img
             className="project-photo mt-3"
@@ -69,7 +86,9 @@ export default function Portfolio() {
       </div>
       <div className="col-6 project-container">
         <h4 className="project-title col-5">Timed Quiz App</h4>
-        <a href="https://github.com/Nietru/js-timed-quiz">REPO</a>
+        <a className="repo-link" href="https://github.com/Nietru/js-timed-quiz">
+          REPO
+        </a>
         <a href="https://nietru.github.io/js-timed-quiz/">
           <img
             className="project-photo mt-3"

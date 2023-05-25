@@ -11,17 +11,17 @@ function PortfolioContainer() {
 
   return (
     <>
-      <div className="container">
-        <div className="row mt-3">
+      <div className="main-container container">
+        <div className="container-fluid row mt-3">
           <Header
             currentPage={currentPage}
             handlePageChange={handlePageChange}
           />
         </div>
-        <div className="row current-page mt-3">
+        <div className="container-fluid row current mt-3">
           <const currentPage={PageItem} />
         </div>
-        <div className="row mt-3">
+        <div className="container-fluid row mt-3">
           <Footer
             currentPage={currentPage}
             handlePageChange={handlePageChange}

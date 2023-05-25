@@ -40,7 +40,7 @@ const backList = backEndSKills.map((backEndSkills) => (
 
 export default function Resume() {
   return (
-    <div className="container resume-page">
+    <div className="container-fluid resume-page">
       <h2 className="page-title mt-3">Resume':</h2>
       <a
         className="resume-file"
@@ -52,11 +52,11 @@ export default function Resume() {
       </a>
       <h4 className="mt-3">Developer Skills</h4>
       <div className="row">
-        <p className="col-5 list">
+        <p className="col-md-5 list">
           <h4 className="skill-list">Front-End:</h4>
           <ul className="list-items">{frontList}</ul>
         </p>
-        <p className="col-5 list">
+        <p className="col-md-5 list">
           <h4 className="skill-list">Back-End:</h4>
           <ul className="list-items">{backList}</ul>
         </p>

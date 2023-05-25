@@ -7,6 +7,11 @@
   background-color: rgb(14, 1, 1);
 }
 
+/* body .container {
+  background-image: url("./images/backgroundImg.jpg");
+  background-size: cover;
+} */
+
 .main-container .row {
   display: flex;
   margin: 8%;
@@ -23,13 +28,17 @@ h2 {
 }
 
 .nav a {
+  text-align: center;
   color: rgb(247, 183, 9);
   font-weight: bold;
-  font-size: larger;
 }
 
 .nav a:hover {
   color: white;
+}
+
+.nav a:visited {
+  color: rgb(247, 183, 9);
 }
 
 /* Highlights the active link in the navbar */

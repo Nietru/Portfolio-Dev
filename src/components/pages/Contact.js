@@ -57,6 +57,7 @@ function Contact() {
             className="field col-5 mt-3"
             value={name}
             name="name"
+            required="true"
             onChange={handleInputChange}
             type="text"
             placeholder="Your name"
@@ -73,6 +74,7 @@ function Contact() {
             className="field msg-field col-7 mt-3"
             value={message}
             name="message"
+            required="true"
             onChange={handleInputChange}
             type="text"
             placeholder="Your Message Here"

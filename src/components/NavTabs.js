@@ -3,8 +3,9 @@ import { NavLink } from "react-bootstrap";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
+    // <div className="container-fluid">
     <ul className="col-8 nav nav-tabs">
-      <li className="nav-item">
+      <li className="col-3 nav-item">
         <a
           href="#about"
           onClick={() => handlePageChange("About")}
@@ -13,7 +14,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           <NavLink activeClassName="active-link">About</NavLink>
         </a>
       </li>
-      <li className="nav-item">
+      <li className="col-3 nav-item">
         <a
           href="#contact"
           onClick={() => handlePageChange("Contact")}
@@ -22,7 +23,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           <NavLink activeClassName="active-link">Contact</NavLink>
         </a>
       </li>
-      <li className="nav-item">
+      <li className="col-3 nav-item">
         <a
           href="#portfolio"
           onClick={() => handlePageChange("Portfolio")}
@@ -34,7 +35,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
       {/* TODO: need to make the resume a downloadable file: */}
-      <li className="nav-item">
+      <li className="col-3 nav-item">
         <a
           href="#resume"
           onClick={() => handlePageChange("Resume")}
@@ -44,6 +45,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    // </div>
   );
 }
 

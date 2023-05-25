@@ -3,15 +3,15 @@ import image from "../../images/selfie.jpg";
 
 export default function About() {
   return (
-    <div className="container about">
+    <div className="container-fluid about">
       <h2 className="page-title mt-3">About Me:</h2>
       <div>
         <img
-          className="self-photo col-2 mt-3"
+          className="self-photo col-sm-2 mt-3 img"
           src={image}
           alt="self portrait of the developer"
         />
-        <p className="about col-9 mt-3">
+        <p className="about col-lg-9 mt-3">
           The learning journey is an endless beautiful adventure, and I am fully
           committed to the growth mindset. Currently enrolled in the UNH
           full-stack Coding Bootcamp, simply put, my current goal is to move

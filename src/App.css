@@ -14,12 +14,11 @@
 
 .main-container .row {
   display: flex;
-  margin: 8%;
+  margin: 4%;
   color: white;
 }
 
 .current {
-  border: 1px solid rgb(247, 183, 9);
   color: white;
 }
 
@@ -94,10 +93,6 @@ h2 {
   margin: 30px;
 }
 
-.validate-text {
-  color: rgb(247, 183, 9);
-}
-
 .form .submit-form {
   margin: 20px;
   padding-top: 10px;
@@ -140,5 +135,42 @@ p {
   font-size: smaller;
 }
 
-footer .row {
+footer .foot-links {
+  display: flex;
+  border-top: 2px solid white;
+  justify-content: center;
+}
+
+.foot-links a {
+  color: rgb(247, 183, 9);
+}
+
+.foot-links a:hover {
+  color: teal;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 768px) {
+  body {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 20px;
+  }
+
+  nav .ul {
+    display: flex;
+  }
+
+  nav li {
+    flex: 1;
+  }
+
+  footer li {
+    flex: 1;
+  }
+
+  .container-fluid .img {
+    display: none;
+  }
 }

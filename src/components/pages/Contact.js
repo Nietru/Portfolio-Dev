@@ -48,13 +48,13 @@ function Contact() {
   };
 
   return (
-    <div>
+    <div className="container-fluid">
       <h2 className="mt-3">Contact:</h2>
       <form className="form contact" onSubmit={handleFormSubmit}>
         <div className="ui-form">
           {/* {errorMessage ? <label>Name cannot be empty!</label> : ""} */}
           <input
-            className="field col-5 mt-3"
+            className="field col-md-5 mt-3"
             value={name}
             name="name"
             required="true"
@@ -63,7 +63,7 @@ function Contact() {
             placeholder="Your name"
           />
           <input
-            className="field col-5 mt-3"
+            className="field col-md-5 mt-3"
             value={email}
             name="email"
             onChange={handleInputChange}
@@ -71,7 +71,7 @@ function Contact() {
             placeholder="email"
           />
           <input
-            className="field msg-field col-7 mt-3"
+            className="field msg-field col-lg-7 mt-3"
             value={message}
             name="message"
             required="true"
@@ -79,10 +79,7 @@ function Contact() {
             type="text"
             placeholder="Your Message Here"
           />
-          <p className="validate-text col-9">
-            Enter NAME, EMAIL, and MESSAGE to SUBMIT!
-          </p>
-          <button type="submit" className="submit-form col-2 mt-3">
+          <button type="submit" className="submit-form col-sm-2 mt-3">
             Submit
           </button>
         </div>

@@ -25,9 +25,9 @@ function Header() {
 
   return (
     <>
-      <header className="container">
+      <header className="container-fluid">
         <div className="row">
-          <h1 className="col-3">Tifannie G Truman</h1>
+          <h1 className="col-md-3">Tifannie G Truman</h1>
           <NavTabs
             currentPage={currentPage}
             handlePageChange={handlePageChange}

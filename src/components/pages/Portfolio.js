@@ -10,10 +10,9 @@ export default function Portfolio() {
   return (
     <div className="container-fluid mt-3">
       <h2 className="page-title mt-3">Portfolio:</h2>
-      <h6>Click on the Image to see the deployed project!</h6>
-      {/* TODO: update hrefs and alt text for images and resize images */}
-      <div className="col-lg-6 project-container-fluid">
-        <h4 className="project-title col-md-5">Recipe API Project</h4>
+      <h6 className="row">Click on the Image to see the deployed project!</h6>
+      <div className="col-lg-5 project-container">
+        <h4 className="project-title col-4">Recipe API Project</h4>
         <a
           className="repo-link"
           href="https://github.com/Nietru/Mmm-My-Menu-Memory-App"
@@ -28,8 +27,8 @@ export default function Portfolio() {
           />
         </a>
       </div>
-      <div className="col-lg-6 project-container">
-        <h4 className="project-title col-md-5">Note Taker App</h4>
+      <div className="col-5 project-container">
+        <h4 className="project-title col-4">Note Taker App</h4>
         <a
           className="repo-link"
           href="https://github.com/Nietru/Express-Note-Taker"
@@ -44,8 +43,8 @@ export default function Portfolio() {
           />
         </a>
       </div>
-      <div className="col-lg-6 project-container">
-        <h4 className="project-title col-md-5">Workday Planner App</h4>
+      <div className="col-5 project-container">
+        <h4 className="project-title col-4">Workday Planner App</h4>
         <a
           className="repo-link"
           href="https://github.com/Nietru/little-workday-planner"
@@ -60,8 +59,8 @@ export default function Portfolio() {
           />
         </a>
       </div>
-      <div className="col-lg-6 project-container">
-        <h4 className="project-title col-md-5">Music Search API Project</h4>
+      <div className="col-5 project-container">
+        <h4 className="project-title col-4">Music Search API Project</h4>
         <a className="repo-link" href="https://github.com/bcebel/Hot10">
           REPO
         </a>
@@ -73,8 +72,8 @@ export default function Portfolio() {
           />
         </a>
       </div>
-      <div className="col-lg-6 project-container">
-        <h4 className="project-title col-md-5">Weather information App</h4>
+      <div className="col-5 project-container">
+        <h4 className="project-title col-4">Weather information App</h4>
         <a href="https://github.com/Nietru/weather-finder-app">REPO</a>
         <a href="https://nietru.github.io/weather-finder-app/">
           <img
@@ -84,8 +83,8 @@ export default function Portfolio() {
           />
         </a>
       </div>
-      <div className="col-lg-6 project-container">
-        <h4 className="project-title col-md-5">Timed Quiz App</h4>
+      <div className="col-5 project-container">
+        <h4 className="project-title col-4">Timed Quiz App</h4>
         <a className="repo-link" href="https://github.com/Nietru/js-timed-quiz">
           REPO
         </a>

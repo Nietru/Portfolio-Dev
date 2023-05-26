@@ -7,13 +7,7 @@
   background-color: rgb(14, 1, 1);
 }
 
-/* body .container {
-  background-image: url("./images/backgroundImg.jpg");
-  background-size: cover;
-} */
-
 .main-container .row {
-  display: flex;
   margin: 4%;
   color: white;
 }
@@ -168,9 +162,5 @@ footer .foot-links {
 
   footer li {
     flex: 1;
-  }
-
-  .container-fluid .img {
-    display: none;
   }
 }

@@ -6,7 +6,7 @@ import Image4 from "../../images/project-4.PNG";
 import Image5 from "../../images/project-5.PNG";
 import Image6 from "../../images/project-6.PNG";
 
-export default function Portfolio() {
+function Portfolio() {
   return (
     <div className="container-fluid mt-3">
       <h2 className="page-title mt-3">Portfolio:</h2>
@@ -99,4 +99,6 @@ export default function Portfolio() {
     </div>
   );
 }
+
+export default Portfolio;
 

@@ -38,7 +38,7 @@ const backList = backEndSKills.map((backEndSkills) => (
   <li key={backEndSkills.title}>{backEndSkills.title}</li>
 ));
 
-function Resume() {
+export default function Resume() {
   return (
     <div className="container-fluid resume-page">
       <h2 className="page-title mt-3">Resume':</h2>
@@ -64,5 +64,3 @@ function Resume() {
     </div>
   );
 }
-
-export default Resume();

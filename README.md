@@ -28,6 +28,8 @@ MIT, please review the github repository for any other licensing inquiries.
 
 ## Deployment
 
+https://nietru.github.io/Portfolio-Dev/
+
 ## Questions
 
 Contact me via LinkedIn: https://www.linkedin.com/in/nietru143/

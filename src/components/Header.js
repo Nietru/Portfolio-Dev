@@ -5,7 +5,7 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 
-function Header() {
+export default function Header() {
   const [currentPage, setCurrentPage] = useState("About");
 
   const renderPage = () => {
@@ -38,5 +38,3 @@ function Header() {
     </>
   );
 }
-
-export default Header;

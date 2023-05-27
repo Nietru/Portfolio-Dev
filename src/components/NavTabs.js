@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-bootstrap";
 
-function NavTabs({ currentPage, handlePageChange }) {
+export default function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="container-fluid col-lg-8 nav nav-tabs">
       <li className="col-md-3 nav-item">
@@ -45,5 +45,3 @@ function NavTabs({ currentPage, handlePageChange }) {
     </ul>
   );
 }
-
-export default NavTabs;

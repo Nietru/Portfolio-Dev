@@ -4,7 +4,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import { PageItem } from "react-bootstrap";
 
-function PortfolioContainer() {
+export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("About");
 
   const handlePageChange = (page) => setCurrentPage(page);
@@ -31,5 +31,3 @@ function PortfolioContainer() {
     </>
   );
 }
-
-export default PortfolioContainer;

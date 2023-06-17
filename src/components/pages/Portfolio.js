@@ -1,6 +1,6 @@
 import React from "react";
 import Image1 from "../../images/project-1.PNG";
-import Image2 from "../../images/project-2.PNG";
+import Image2 from "../../images/final-project.PNG";
 import Image3 from "../../images/project-3.PNG";
 import Image4 from "../../images/project-4.PNG";
 import Image5 from "../../images/project-5.PNG";
@@ -28,14 +28,13 @@ function Portfolio() {
         </a>
       </div>
       <div className="col-5 project-container">
-        <h4 className="project-title col-4">Note Taker App</h4>
-        <a
-          className="repo-link"
-          href="https://github.com/Nietru/Express-Note-Taker"
-        >
+        <h4 className="project-title col-4">
+          Book-Review Project (MERN stack)
+        </h4>
+        <a className="repo-link" href="https://github.com/Nietru/Book-Mark">
           REPO
         </a>
-        <a href="https://secure-ocean-91993.herokuapp.com/">
+        <a href="https://morning-refuge-05693-8548eae169a5.herokuapp.com/">
           <img
             className="project-photo mt-3 img"
             src={Image2}
@@ -101,4 +100,3 @@ function Portfolio() {
 }
 
 export default Portfolio;
-

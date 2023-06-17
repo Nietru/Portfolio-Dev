@@ -17,8 +17,7 @@ export default function Header() {
     }
     if (currentPage === "Contact") {
       return <Contact />;
-    }
-    if (currentPage === "Resume") {
+    } else if (currentPage === "Resume") {
       return <Resume />;
     }
   };
